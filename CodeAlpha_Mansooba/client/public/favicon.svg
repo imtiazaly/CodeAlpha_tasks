@@ -1,0 +1,49 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Left Pillar Gradient -->
+    <linearGradient id="fav-m-left" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+
+    <!-- Center Fold Gradient -->
+    <linearGradient id="fav-m-center" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <!-- Right Pillar Gradient -->
+    <linearGradient id="fav-m-right" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Rounded Container -->
+  <rect width="32" height="32" rx="8" fill="#0c0c0e" stroke="#6366f1" stroke-opacity="0.5" stroke-width="1.5" />
+
+  <!-- Left Wing / Pillar -->
+  <path
+    d="M 5 26 L 5 8 C 5 6.3 6.3 5 8 5 L 10 5 C 11.1 5 12 5.9 12 7 L 12 26 C 12 26.6 11.4 27 10.8 27 L 6.2 27 C 5.5 27 5 26.5 5 26 Z"
+    fill="url(#fav-m-left)"
+  />
+
+  <!-- Isometric Center Chevron -->
+  <path
+    d="M 10 7 L 16 16.5 L 22 7 C 22.6 6.1 23.8 6.1 24.4 7 L 24.5 7.2 L 17.5 19 C 16.7 20.3 15.3 20.3 14.5 19 L 7.5 7.2 L 7.6 7 C 8.2 6.1 9.4 6.1 10 7 Z"
+    fill="url(#fav-m-center)"
+  />
+
+  <!-- Right Wing / Pillar -->
+  <path
+    d="M 20 7 C 20 5.9 20.9 5 22 5 L 24 5 C 25.7 5 27 6.3 27 8 L 27 26 C 27 26.5 26.5 27 25.8 27 L 21.2 27 C 20.6 27 20 26.6 20 26 L 20 7 Z"
+    fill="url(#fav-m-right)"
+  />
+
+  <!-- Core Milestone Gem -->
+  <polygon
+    points="16,13 18.5,16.5 16,20 13.5,16.5"
+    fill="#ffffff"
+  />
+</svg>
